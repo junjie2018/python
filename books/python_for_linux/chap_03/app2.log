@@ -1,0 +1,5 @@
+2020-06-08 19:30:12,789 : DEBUG : debug message
+2020-06-08 19:30:12,790 : INFO : info message
+2020-06-08 19:30:12,790 : WARNING : warning message
+2020-06-08 19:30:12,790 : ERROR : error message
+2020-06-08 19:30:12,790 : CRITICAL : critical message

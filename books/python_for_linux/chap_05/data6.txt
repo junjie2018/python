@@ -1,0 +1,4 @@
+Beautiful Is Better That Ugly.
+Explicit Is Better That Implicit.
+Simple Is Better Than Complex.
+Complex Is Better Than Complicated.

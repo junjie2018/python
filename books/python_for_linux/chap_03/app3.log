@@ -1,0 +1,6 @@
+2020-06-08 19:37:00,992 WARNI [root:10] warning message
+2020-06-08 19:37:00,992 ERROR [root:11] error message
+2020-06-08 19:37:00,992 CRITI [root:12] critical message
+2020-06-08 19:54:12,159 WARNI [root:10] warning message
+2020-06-08 19:54:12,159 ERROR [root:11] error message
+2020-06-08 19:54:12,159 CRITI [root:12] critical message

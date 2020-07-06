@@ -1,0 +1,13 @@
+表名	泛会员操作日志表	表编码:	mmp_member_action_log	约束说明：						end
+序号	列名称	列编码	类型	长度	键	必填	约束/默认值	备注	修改类型	end
+1	主键Id	account_log_id	bigint	20	PK	是	primary key	主键Id	新增	end
+2	会员信息Id	member_id	bigint	20		是	idx_member_id	索引	新增	end
+3	会员登录标识id	session_id	varchar	200						end
+4	登录ip	action_ip	varchar	200						end
+5	登录端UA	action_ua	varchar	300						end
+6	登录Referer	action_referer	varchar	300						end
+7	动作类型	action_type	int	2						end
+8	操作前用户信息	action_before	varchar	500						end
+9	操作后用户信息	action_after	varchar	500						end
+10	备注	remark	varchar	255		否				end
+11	创建时间	create_at	datetime			是	CURRENT_TIMESTAMP		新增	end
