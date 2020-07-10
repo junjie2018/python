@@ -103,6 +103,7 @@ def main():
             else:
                 content += primary + '\n'
 
+            print("drop table if exists `{}`;".format(table_name, table_name))
             print("create table {} (\n{});\nalter table {} comment '{}';".format(table_name, content, table_name,
                                                                                  table_comment))
 

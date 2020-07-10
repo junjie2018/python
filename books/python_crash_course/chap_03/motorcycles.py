@@ -30,7 +30,7 @@ motorcycles = ['honda','yamha','suzuki']
 print(motorcycles)
 
 first_owned=motorcycles.pop(0)
-print('The first motorycle I owned was a ' + first_owned.title()+ '.')
+print('The tkinter_demo.py motorycle I owned was a ' + first_owned.title()+ '.')
 
 # 使用remove根据值删除元素
 motorcycles = ['honda','yamha','suzuki']

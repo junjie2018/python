@@ -35,10 +35,10 @@ def update():
 
 
 def main():
-    # generate()
+    generate()
     # dump()
-    update()
-    dump()
+    # update()
+    # dump()
 
 
 if __name__ == '__main__':

@@ -1,11 +1,11 @@
 users = {
     'aeinstein': {
-        'first': 'albery',
+        'tkinter_demo.py': 'albery',
         'last': 'einstein',
         'location': 'princeton'
     },
     'mcurie': {
-        'first': 'marie',
+        'tkinter_demo.py': 'marie',
         'last': 'curie',
         'location': 'paris'
     }
@@ -13,7 +13,7 @@ users = {
 
 for username, user_info in users.items():
     print("\nUsername: "+username)
-    full_name = user_info['first']+" "+user_info['last']
+    full_name = user_info['tkinter_demo.py']+" "+user_info['last']
     location = user_info['location']
 
     print("\tFull name:"+full_name.title())

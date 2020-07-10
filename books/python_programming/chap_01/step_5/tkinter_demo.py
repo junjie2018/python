@@ -36,6 +36,22 @@ def tkinter05():
     mainloop()
 
 
+def tkinter06():
+    top = Tk()
+    top.title('Echo')
+    # top.iconbitmap('py-blue-trans-out.ico')
+
+    Label(top, text="Enter your name:").pack(side=TOP)
+
+    ent = Entry(top)
+    ent.pack(side=TOP)
+
+    btn = Button(top, text="Submit", command=(lambda: reply06(ent.get())))
+    btn.pack(side=LEFT)
+
+    top.mainloop()
+
+
 class MyGui(Frame):
     def __init__(self, parent=None):
         Frame.__init__(self, parent)
@@ -55,12 +71,17 @@ def reply():
     showinfo(title='popup', message='Button pressed!')
 
 
+def reply06(name):
+    showinfo(title='Reply', message='Hello %s!' % name)
+
+
 def main():
     # tkinter01()
     # tkinter02()
     # tkinter03()
     # tkinter04()
-    tkinter05()
+    # tkinter05()
+    tkinter06()
 
 
 if __name__ == '__main__':

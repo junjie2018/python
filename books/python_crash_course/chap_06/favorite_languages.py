@@ -17,7 +17,7 @@ for name, language in favorite_languages.items():
 
 user_0 = {
     'username': 'efermi',
-    'first': 'enrico',
+    'tkinter_demo.py': 'enrico',
     'last': 'fermi',
 }
 

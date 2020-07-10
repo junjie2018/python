@@ -1,0 +1,9 @@
+表名	系统角色资源关系表	表编码:	mmp_role_resource	约束说明：						end
+序号	列名称	列编码	类型	长度	键	必填	约束/默认值	备注	修改类型	end
+1	主键Id	role_resource_id	int	11	PK	是	primary key	主键Id	自增	end
+1	角色Id	role_id	int	11		是				end
+2	资源ID	resource_id	int	11		是				end
+5	创建时间	create_at	datetime			否				end
+6	创建人	create_by	int	11		否				end
+7	 修改时间	update_at	datetime			否				end
+8	修改人	update_by	int	11		否				end
