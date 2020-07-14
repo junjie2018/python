@@ -1,9 +1,13 @@
-表名	系统角色资源关系表	表编码:	mmp_role_resource	约束说明：						end
+表名	泛（卡）会员信息绑定平台账号表	表编码:	mmp_member_app_user	约束说明：						end
 序号	列名称	列编码	类型	长度	键	必填	约束/默认值	备注	修改类型	end
-1	主键Id	role_resource_id	int	11	PK	是	primary key	主键Id	自增	end
-1	角色Id	role_id	int	11		是				end
-2	资源ID	resource_id	int	11		是				end
-5	创建时间	create_at	datetime			否				end
-6	创建人	create_by	int	11		否				end
-7	 修改时间	update_at	datetime			否				end
-8	修改人	update_by	int	11		否				end
+1	主键ID	member_app_user_id	bigint	20	PK	是	primary key	主键Id	自增	end
+2	品牌id	brand_id	bigint	20		否				end
+	品牌code	brand_code	varchar	100		是				end
+3	渠道ID	channel_id	int	11		是				end
+4	渠道应用ID	channel_app_id	int	11		是				end
+6	平台应用id	platform_app_id	varchar	100		是				end
+7	绑定平台账号ID	 app_user_id	varchar	100		是				end
+8	绑定状态	bind_status	int	4		是		1绑定、0解绑		end
+9	绑定时间	bind_date	datetime			是				end
+10	 更新时间	update_at	datetime			是				end
+11	更新人	update_by	varchar	100		是				end

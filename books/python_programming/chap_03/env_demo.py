@@ -26,17 +26,13 @@ import sys
         1.在a shell中运行python进程修改环境变量，并不会影响到a shell本身的环境变量
         2.由a shell运行的python进程派生的进程的环境变量会受到该python进程修改环境变
           量的影响，而且，可能还是实时的。
-  
-    在内部，对os.environ的键赋值将会调用os.putenv，它负责改变python解释器外部的shell
-    变量——我不是很理解这句话，什么叫做改变python解释器外部的shell变量，实际上实验中，
-    调用该python脚本的shell中环境变量并没有发生改变。
-    
-    可以这样理解，shell是一个进程，shell启动的python也是一个进程，修改python解释器外部
-    的shell变量就是修改这个python进程的shell。好抽象
-    
-    
+        
     子程序是有如下方式启动的程序：在Unix下os.spawnv os.fork/exec或者所有平台下的os.popen
     os.system subprocess
+    
+    os.environ的修改会自动调用os.putenv，后者将调用C库里的putenv（如果在你的系统里可用）把
+    该设置导出到Python链接的C库里。然而，虽然对os.envison的修改会调用os.putenv，但是直接调
+    用os.putenv却不会更新os.environ。因此，与os.putenv相比，更推荐使用os.environ映射接口。
 """
 def main():
     choice = sys.argv[1]
