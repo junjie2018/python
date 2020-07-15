@@ -2,6 +2,8 @@
     getopt模块：仿效Unix/C中的同名工具
     optparse模块：一个新的替代直选，通常任务它的功能更强大（以后研究一下）
         https://docs.python.org/3/library/optparse.html
+    argparse模块：这个貌似是最新的，optparse已经不再维护了
+        https://docs.python.org/3/library/argparse.html#module-argparse
 """
 
 def getopts(argv):

@@ -1,13 +1,11 @@
-表名	泛（卡）会员信息绑定平台账号表	表编码:	mmp_member_app_user	约束说明：						end
+表名	卡动态码记录表	表编码:	mmp_card_dynamic_log	约束说明：						end
 序号	列名称	列编码	类型	长度	键	必填	约束/默认值	备注	修改类型	end
-1	主键ID	member_app_user_id	bigint	20	PK	是	primary key	主键Id	自增	end
-2	品牌id	brand_id	bigint	20		否				end
-	品牌code	brand_code	varchar	100		是				end
-3	渠道ID	channel_id	int	11		是				end
-4	渠道应用ID	channel_app_id	int	11		是				end
-6	平台应用id	platform_app_id	varchar	100		是				end
-7	绑定平台账号ID	 app_user_id	varchar	100		是				end
-8	绑定状态	bind_status	int	4		是		1绑定、0解绑		end
-9	绑定时间	bind_date	datetime			是				end
-10	 更新时间	update_at	datetime			是				end
-11	更新人	update_by	varchar	100		是				end
+1	主键Id	card_dynamic_log_id	bigint	20	PK	是	primary key	主键Id	自增	end
+	会员Id	member_id	bigint	20		是				end
+	会员卡Id	card_id	bigint	20		是				end
+2	会员卡号	card_no	bigint	20		是				end
+3	动态码	dynamic_code	bigint	20		是				end
+4	状态	status	int	4		是				end
+5	动态码前缀	dynamic_prefix	varchar	100		是				end
+6	卡号前缀	card_prefix	int	4		是				end
+7	生成时间	create_time	datetime	4		是				end

@@ -1,85 +1,12 @@
 {
-    "resultCode": "00000",
-    "resultMessage": "成功",
-    "data": [
-        {
-            "memberNumber": "11000000004",
-            "mobileNo": "xxx",
-            "cardStatus": "Issued",
-            "memberStatus": "Active",
-            "memberSubStatus": "Registered",
-            "tierName": "Base",
-            "firstName": "xx",
-            "lastName": "林",
-            "gender": "F",
-            "pointValue": "14620",
-            "registerDate": "06/20/2012",
-            "expirationPoints": [],
-            "serialNumber": null,
-            "birthday": "08/20/1992",
-            "tierStartDate": "09/26/2019",
-            "tierEndDate": "06/19/2020",
-            "memberClass": "",
-            "vipPlusEndDate": "",
-            "joinDate": "06/20/2012",
-            "employeeFlag": "N",
-            "employeePointValue": "0",
-            "segments": [
-                {
-                    "segmentNo": "4",
-                    "segmentName": "4",
-                    "segmentStartDate": "",
-                    "segmentEndDate": "",
-                    "segmentType": "Customer Segment",
-                    "businessType": null
-                },
-                {
-                    "segmentNo": "105",
-                    "segmentName": "aaaaabbb",
-                    "segmentStartDate": "02/11/2017",
-                    "segmentEndDate": "",
-                    "segmentType": "POS Segment",
-                    "businessType": null
-                },
-                {
-                    "segmentNo": "112",
-                    "segmentName": "112",
-                    "segmentStartDate": "04/29/2019",
-                    "segmentEndDate": "",
-                    "segmentType": "POS Segment",
-                    "businessType": null
-                }
-            ],
-            "accounts": [
-                {
-                    "accId": 1000,
-                    "accValue": 14620
-                },
-                {
-                    "accId": 1001,
-                    "accValue": 0
-                },
-                {
-                    "accId": 3000,
-                    "accValue": 0
-                },
-                {
-                    "accId": 4000,
-                    "accValue": 0
-                },
-                {
-                    "accId": 1120,
-                    "accValue": 100
-                },
-                {
-                    "accId": 1121,
-                    "accValue": 100
-                },
-                {
-                    "accId": 1101,
-                    "accValue": 100
-                }
-            ]
-        }
-    ]
+  "resultCode": 0,
+  "resultMessage": "成功",
+  "data": {
+" activateStatus ":"1",
+" couponStatus ":"1",
+" passwordStatus ":"1",
+" gomsStauts ":"1",
+" segmentStauts ":"1",
+" accountStauts ":"1"
+}
 }

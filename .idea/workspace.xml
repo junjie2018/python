@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff42e92-3881-4345-83be-c520769818a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_03/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_03/streams_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_03/streams_demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_04/dir_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_04/dir_demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_04/file_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_04/file_demo2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools_json_to_entity/input.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_autocrement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_special.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_05/_thread_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_05/exit_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_05/fork_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_05/note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_05/queue_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_05/threading_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/args.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/args2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_add_help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_allow_abbrev.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_argument_default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_conflict_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_epilog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_formatter_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_fromfile_prefix_chars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_parents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_prefix_chars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_prog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/argument_parser_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/argument_parser/note.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools_disploy/configs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools_disploy/display_easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools_disploy/disploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/python_for_linux/update_pconline_coin_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_update_kubernetes_resources/update_pconline_coin_admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/python_for_linux/update_pconline_coin_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_update_kubernetes_resources/update_pconline_coin_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/python_programming/chap_03/env_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/python_programming/chap_03/env_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/python_programming/chap_03/testargv.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools_json_to_entity/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_json_to_entity/input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/tools_power_design/inputs/input" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_power_design/inputs/input" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,51 +44,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/file_demo2.py">
+        <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_argument_default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="106" selection-start-line="106" selection-end-line="107" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="54">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/dir_demo.py">
+        <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_allow_abbrev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_add_help.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/tools_disploy/disploy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/dir_demo2.py">
+        <entry file="file://$PROJECT_DIR$/tools/tools_disploy/display_easy.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/tools_disploy/configs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/data.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/tools/tools_json_to_entity/input.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/data.txt">
+        <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_conflict_handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../software/Python/Python38-32/Lib/argparse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41634">
+              <caret line="1547" selection-start-line="1547" selection-end-line="1547" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/argument_parser/args.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -100,6 +151,10 @@
       <find>auto</find>
       <find>get_field_is_auto_increment</find>
       <find>content</find>
+      <find>getopt</find>
+      <find>...</find>
+      <find>&gt;&gt;&gt;</find>
+      <find>default=</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -111,34 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/make_and_dump_db_pickle2.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/make_and_dump_db_shelve.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_3/first.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_3/manager.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_3/person_start.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_3/person_alternative.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_4/peopleinteract_query.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_2/make_and_dump_db_shelve.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_3/make_and_dump_db_classes.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_4/peopleinteract_update.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_5/first.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_5/tkinter_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_5/peoplegui.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_5/fungui.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin/webserver.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin/cgi_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/peopelcgi.html" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi.html" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/people_cgi.html" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi_demo.html" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin/people_cgi.py" />
-        <option value="$PROJECT_DIR$/tools/tools_power_design/excel_to_sql.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_02/more.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_02/string_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_02/file_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_02/sys_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_02/tmp.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_02/subprocess.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_02/subprocess_demo.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_02/index.html" />
@@ -153,21 +180,49 @@
         <option value="$PROJECT_DIR$/books/python_programming/chap_03/streams_demo2.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_04/first.py" />
         <option value="$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_special.py" />
-        <option value="$PROJECT_DIR$/tools/tools_power_design/inputs/input" />
-        <option value="$PROJECT_DIR$/tools/tools_json_to_entity/input.json" />
-        <option value="$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_04/file_demo.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_03/data.txt" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_04/data.txt" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_04/file_demo2.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_04/dir_demo.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_04/dir_demo2.py" />
+        <option value="$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_05/note.py" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_05/fork_demo.py" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_05/thread_demo.py" />
+        <option value="$PROJECT_DIR$/tools/tools_oa/input" />
+        <option value="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_05/threading_demo.py" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_05/queue_demo.py" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_05/exit_demo.py" />
+        <option value="$PROJECT_DIR$/tools/tools_power_design/inputs/input" />
+        <option value="$PROJECT_DIR$/tools/tools_json_to_entity/input.json" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py" />
+        <option value="$PROJECT_DIR$/modules/argparse_01.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_usage.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_description.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_epilog.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_parents.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_formatter_class.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_prefix_chars.py" />
+        <option value="$PROJECT_DIR$/modules/args.txt" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_fromfile_prefix_chars.py" />
+        <option value="$PROJECT_DIR$/modules/args2.txt" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_argument_default.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_allow_abbrev.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_conflict_handler.py" />
+        <option value="$PROJECT_DIR$/modules/argument_parser_add_help.py" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/config.yml" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/disploy.sh.py" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/disploy.py" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/configs.yml" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/display_easy.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-170" />
-    <option name="y" value="245" />
+    <option name="x" value="-4" />
+    <option name="y" value="-24" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -179,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,46 +249,45 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="python_programming" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="python_programming" type="462c0819:PsiDirectoryNode" />
-              <item name="chap_04" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="tools_disploy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/books/python_programming/chap_04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\modules\argument_parser" />
       <recent name="D:\python\tools\tools_update_kubernetes_resources" />
       <recent name="D:\python\books\python_programming\chap_01\step_6" />
       <recent name="D:\python\books\python_programming\chap_01\step_6\cgi-bin" />
       <recent name="D:\python\books\python_programming\chap_01\step_4" />
-      <recent name="D:\python\books\python_programming\chap_01\step_2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\modules" />
       <recent name="D:\python\books\python_programming\chap_04" />
       <recent name="D:\python\tools\tools_power_design" />
       <recent name="D:\python\books\python_programming\chap_02" />
       <recent name="D:\python\books\python_programming\chap_01\step_6" />
-      <recent name="D:\python\books\python_programming\chap_01\step_4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,8 +302,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dir_demo2">
-    <configuration name="dir_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.disploy.sh">
+    <configuration name="argument_parser_add_help" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,12 +311,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/books/python_programming/chap_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/books/python_programming/chap_04/dir_demo.py" />
+      <option name="SCRIPT_NAME" value="D:\python\modules\argument_parser\argument_parser_add_help.py" />
+      <option name="PARAMETERS" value="-h" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="argument_parser_allow_abbrev" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python\modules\argument_parser\argument_parser_allow_abbrev.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,7 +347,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dir_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="argument_parser_argument_default" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,13 +355,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/books/python_programming/chap_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/books/python_programming/chap_04/dir_demo2.py" />
-      <option name="PARAMETERS" value="unicode_test" />
+      <option name="SCRIPT_NAME" value="D:\python\modules\argument_parser\argument_parser_argument_default.py" />
+      <option name="PARAMETERS" value="-h" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -294,7 +369,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="argument_parser_conflict_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,12 +377,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/books/python_programming/chap_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/books/python_programming/chap_04/file_demo.py" />
+      <option name="SCRIPT_NAME" value="D:\python\modules\argument_parser\argument_parser_conflict_handler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -316,7 +391,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="disploy.sh" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,34 +399,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/books/python_programming/chap_04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools/tools_disploy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/books/python_programming/chap_04/file_demo2.py" />
-      <option name="PARAMETERS" value="filter_stream_test" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="json_to_entity" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools/tools_json_to_entity" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py" />
+      <option name="SCRIPT_NAME" value="D:\python\tools\tools_disploy\disploy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,19 +414,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.json_to_entity" />
-      <item itemvalue="Python.file_demo" />
-      <item itemvalue="Python.file_demo2" />
-      <item itemvalue="Python.dir_demo" />
-      <item itemvalue="Python.dir_demo2" />
+      <item itemvalue="Python.argument_parser_argument_default" />
+      <item itemvalue="Python.argument_parser_allow_abbrev" />
+      <item itemvalue="Python.argument_parser_conflict_handler" />
+      <item itemvalue="Python.argument_parser_add_help" />
+      <item itemvalue="Python.disploy.sh" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dir_demo2" />
-        <item itemvalue="Python.dir_demo" />
-        <item itemvalue="Python.file_demo2" />
-        <item itemvalue="Python.file_demo" />
-        <item itemvalue="Python.json_to_entity" />
+        <item itemvalue="Python.disploy.sh" />
+        <item itemvalue="Python.argument_parser_add_help" />
+        <item itemvalue="Python.argument_parser_conflict_handler" />
+        <item itemvalue="Python.argument_parser_allow_abbrev" />
+        <item itemvalue="Python.argument_parser_argument_default" />
       </list>
     </recent_temporary>
   </component>
@@ -395,24 +448,26 @@
       <workItem from="1594449689342" duration="8091000" />
       <workItem from="1594532993165" duration="14825000" />
       <workItem from="1594604310503" duration="8422000" />
-      <workItem from="1594689378592" duration="2907000" />
+      <workItem from="1594689378592" duration="32014000" />
+      <workItem from="1594792689895" duration="1976000" />
+      <workItem from="1594799122927" duration="11476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82280000" />
+    <option name="totallyTimeSpent" value="124839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24061662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16855524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4362606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46033993" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.55807364" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -442,7 +497,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py</url>
-          <line>9</line>
+          <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -475,244 +530,86 @@
           <line>29</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/books/python_programming/chap_05/fork_demo.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/tools_disploy/disploy.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$peopleinteract_query.coverage" NAME="peopleinteract_query Coverage Results" MODIFIED="1594180462183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_4" />
-    <SUITE FILE_PATH="coverage/python$person_start.coverage" NAME="person_start Coverage Results" MODIFIED="1594124030629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_3" />
-    <SUITE FILE_PATH="coverage/python$testargv.coverage" NAME="testargv Coverage Results" MODIFIED="1594384422664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
-    <SUITE FILE_PATH="coverage/python$make_db_pickle.coverage" NAME="make_db_pickle Coverage Results" MODIFIED="1594106853236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/pickle" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_prog.coverage" NAME="argument_parser_prog Coverage Results" MODIFIED="1594733384353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_prefix_chars.coverage" NAME="argument_parser_prefix_chars Coverage Results" MODIFIED="1594735584400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$fork_demo.coverage" NAME="fork_demo Coverage Results" MODIFIED="1594698720762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_05" />
     <SUITE FILE_PATH="coverage/python$string_demo.coverage" NAME="string_demo Coverage Results" MODIFIED="1594300951813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
-    <SUITE FILE_PATH="coverage/python$dir_demo.coverage" NAME="dir_demo Coverage Results" MODIFIED="1594690447604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_04" />
     <SUITE FILE_PATH="coverage/python$manager.coverage" NAME="manager Coverage Results" MODIFIED="1594123582037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_3" />
     <SUITE FILE_PATH="coverage/python$dump_db_file.coverage" NAME="dump_db_file Coverage Results" MODIFIED="1594106456486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
-    <SUITE FILE_PATH="coverage/python$make_and_dump_db_file.coverage" NAME="make_and_dump_db_file Coverage Results" MODIFIED="1594107357419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
     <SUITE FILE_PATH="coverage/python$sys_demo.coverage" NAME="sys_demo Coverage Results" MODIFIED="1594302882531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
-    <SUITE FILE_PATH="coverage/python$streams_demo2.coverage" NAME="streams_demo2 Coverage Results" MODIFIED="1594552345726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
-    <SUITE FILE_PATH="coverage/python$file_demo2.coverage" NAME="file_demo2 Coverage Results" MODIFIED="1594689431704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_04" />
+    <SUITE FILE_PATH="coverage/python$argparse_01__1_.coverage" NAME="argparse_01 (1) Coverage Results" MODIFIED="1594733343366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$fungui.coverage" NAME="fungui Coverage Results" MODIFIED="1594212616637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_5" />
     <SUITE FILE_PATH="coverage/python$more.coverage" NAME="more Coverage Results" MODIFIED="1594297580651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
     <SUITE FILE_PATH="coverage/python$os_demo.coverage" NAME="os_demo Coverage Results" MODIFIED="1594371930454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
-    <SUITE FILE_PATH="coverage/python$cgi_demo.coverage" NAME="cgi_demo Coverage Results" MODIFIED="1594213526793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin" />
+    <SUITE FILE_PATH="coverage/python$statistics_work_time.coverage" NAME="statistics_work_time Coverage Results" MODIFIED="1594717159776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_oa" />
     <SUITE FILE_PATH="coverage/python$person_alternative.coverage" NAME="person_alternative Coverage Results" MODIFIED="1594125170888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_3" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_formatter_class.coverage" NAME="argument_parser_formatter_class Coverage Results" MODIFIED="1594735509181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$webserver__1_.coverage" NAME="webserver (1) Coverage Results" MODIFIED="1594288967196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_6" />
     <SUITE FILE_PATH="coverage/python$test_streams.coverage" NAME="test_streams Coverage Results" MODIFIED="1594469779665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
-    <SUITE FILE_PATH="coverage/python$update_db_file.coverage" NAME="update_db_file Coverage Results" MODIFIED="1594106567723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
-    <SUITE FILE_PATH="coverage/python$excel_to_sql_autocrement.coverage" NAME="excel_to_sql_autocrement Coverage Results" MODIFIED="1594541446872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_power_design" />
     <SUITE FILE_PATH="coverage/python$first.coverage" NAME="first Coverage Results" MODIFIED="1594557296399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_04" />
+    <SUITE FILE_PATH="coverage/python$excel_to_sql_autocrement.coverage" NAME="excel_to_sql_autocrement Coverage Results" MODIFIED="1594730831237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_power_design" />
     <SUITE FILE_PATH="coverage/python$subprocess_demo.coverage" NAME="subprocess_demo Coverage Results" MODIFIED="1594373972643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
     <SUITE FILE_PATH="coverage/python$make_and_dump_db_pickle2.coverage" NAME="make_and_dump_db_pickle2 Coverage Results" MODIFIED="1594108602387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
     <SUITE FILE_PATH="coverage/python$excel_to_sql.coverage" NAME="excel_to_sql Coverage Results" MODIFIED="1594541156183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_power_design" />
-    <SUITE FILE_PATH="coverage/python$subprocess.coverage" NAME="subprocess Coverage Results" MODIFIED="1594372613040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
-    <SUITE FILE_PATH="coverage/python$make_and_dump_db_shelve.coverage" NAME="make_and_dump_db_shelve Coverage Results" MODIFIED="1594179686362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_2" />
-    <SUITE FILE_PATH="coverage/python$json_to_entity.coverage" NAME="json_to_entity Coverage Results" MODIFIED="1594634327891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_json_to_entity" />
-    <SUITE FILE_PATH="coverage/python$make_and_dump_db_classes.coverage" NAME="make_and_dump_db_classes Coverage Results" MODIFIED="1594179719237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_3" />
-    <SUITE FILE_PATH="coverage/python$stream_demo.coverage" NAME="stream_demo Coverage Results" MODIFIED="1594451715051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_description.coverage" NAME="argument_parser_description Coverage Results" MODIFIED="1594734601180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$json_to_entity.coverage" NAME="json_to_entity Coverage Results" MODIFIED="1594727881450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_json_to_entity" />
     <SUITE FILE_PATH="coverage/python$streams_demo.coverage" NAME="streams_demo Coverage Results" MODIFIED="1594548766210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_allow_abbrev.coverage" NAME="argument_parser_allow_abbrev Coverage Results" MODIFIED="1594736526979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$excel_to_sql_special.coverage" NAME="excel_to_sql_special Coverage Results" MODIFIED="1594632636066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_power_design" />
-    <SUITE FILE_PATH="coverage/python$make_db_file.coverage" NAME="make_db_file Coverage Results" MODIFIED="1594105673364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_usage.coverage" NAME="argument_parser_usage Coverage Results" MODIFIED="1594734437450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_conflict_handler.coverage" NAME="argument_parser_conflict_handler Coverage Results" MODIFIED="1594736624732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$dir_demo2.coverage" NAME="dir_demo2 Coverage Results" MODIFIED="1594692045617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_04" />
     <SUITE FILE_PATH="coverage/python$peopleinteract_update.coverage" NAME="peopleinteract_update Coverage Results" MODIFIED="1594180406980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_4" />
-    <SUITE FILE_PATH="coverage/python$make_and_dump_db_pickle.coverage" NAME="make_and_dump_db_pickle Coverage Results" MODIFIED="1594107728760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
-    <SUITE FILE_PATH="coverage/python$initdata.coverage" NAME="initdata Coverage Results" MODIFIED="1594104638076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
-    <SUITE FILE_PATH="coverage/python$env_demo.coverage" NAME="env_demo Coverage Results" MODIFIED="1594386655073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
     <SUITE FILE_PATH="coverage/python$cgi.coverage" NAME="cgi Coverage Results" MODIFIED="1594213372694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_6" />
     <SUITE FILE_PATH="coverage/python$webserver.coverage" NAME="webserver Coverage Results" MODIFIED="1594214390480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_add_help.coverage" NAME="argument_parser_add_help Coverage Results" MODIFIED="1594736839652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$peoplegui.coverage" NAME="peoplegui Coverage Results" MODIFIED="1594211184227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_5" />
     <SUITE FILE_PATH="coverage/python$file_demo.coverage" NAME="file_demo Coverage Results" MODIFIED="1594648445632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_04" />
+    <SUITE FILE_PATH="coverage/python$person_start.coverage" NAME="person_start Coverage Results" MODIFIED="1594124030629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_3" />
+    <SUITE FILE_PATH="coverage/python$testargv.coverage" NAME="testargv Coverage Results" MODIFIED="1594384422664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
+    <SUITE FILE_PATH="coverage/python$make_db_pickle.coverage" NAME="make_db_pickle Coverage Results" MODIFIED="1594106853236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/pickle" />
+    <SUITE FILE_PATH="coverage/python$dir_demo.coverage" NAME="dir_demo Coverage Results" MODIFIED="1594690447604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_04" />
+    <SUITE FILE_PATH="coverage/python$queue_demo.coverage" NAME="queue_demo Coverage Results" MODIFIED="1594719196318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_05" />
+    <SUITE FILE_PATH="coverage/python$threading_demo.coverage" NAME="threading_demo Coverage Results" MODIFIED="1594717271267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_05" />
+    <SUITE FILE_PATH="coverage/python$make_and_dump_db_file.coverage" NAME="make_and_dump_db_file Coverage Results" MODIFIED="1594107357419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
+    <SUITE FILE_PATH="coverage/python$streams_demo2.coverage" NAME="streams_demo2 Coverage Results" MODIFIED="1594552345726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
+    <SUITE FILE_PATH="coverage/python$thread_demo.coverage" NAME="thread_demo Coverage Results" MODIFIED="1594711947524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_05" />
+    <SUITE FILE_PATH="coverage/python$file_demo2.coverage" NAME="file_demo2 Coverage Results" MODIFIED="1594689431704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_04" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_fromfile_prefix_chars.coverage" NAME="argument_parser_fromfile_prefix_chars Coverage Results" MODIFIED="1594735864735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$cgi_demo.coverage" NAME="cgi_demo Coverage Results" MODIFIED="1594213526793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin" />
+    <SUITE FILE_PATH="coverage/python$disploy_sh.coverage" NAME="disploy.sh Coverage Results" MODIFIED="1594806008763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_disploy" />
+    <SUITE FILE_PATH="coverage/python$update_db_file.coverage" NAME="update_db_file Coverage Results" MODIFIED="1594106567723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
+    <SUITE FILE_PATH="coverage/python$exit_demo.coverage" NAME="exit_demo Coverage Results" MODIFIED="1594720503024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_05" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_argument_default.coverage" NAME="argument_parser_argument_default Coverage Results" MODIFIED="1594736382824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$subprocess.coverage" NAME="subprocess Coverage Results" MODIFIED="1594372613040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
+    <SUITE FILE_PATH="coverage/python$argparse_01.coverage" NAME="argparse_01 Coverage Results" MODIFIED="1594733201737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$make_and_dump_db_shelve.coverage" NAME="make_and_dump_db_shelve Coverage Results" MODIFIED="1594179686362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_2" />
+    <SUITE FILE_PATH="coverage/python$make_and_dump_db_classes.coverage" NAME="make_and_dump_db_classes Coverage Results" MODIFIED="1594179719237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_3" />
+    <SUITE FILE_PATH="coverage/python$stream_demo.coverage" NAME="stream_demo Coverage Results" MODIFIED="1594451715051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
+    <SUITE FILE_PATH="coverage/python$make_db_file.coverage" NAME="make_db_file Coverage Results" MODIFIED="1594105673364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
+    <SUITE FILE_PATH="coverage/python$make_and_dump_db_pickle.coverage" NAME="make_and_dump_db_pickle Coverage Results" MODIFIED="1594107728760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_epilog.coverage" NAME="argument_parser_epilog Coverage Results" MODIFIED="1594734832154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/python$initdata.coverage" NAME="initdata Coverage Results" MODIFIED="1594104638076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
+    <SUITE FILE_PATH="coverage/python$env_demo.coverage" NAME="env_demo Coverage Results" MODIFIED="1594386655073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
+    <SUITE FILE_PATH="coverage/python$argument_parser_parents.coverage" NAME="argument_parser_parents Coverage Results" MODIFIED="1594735005073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_4/people-shelve.dir" />
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_2/make_and_dump_db_shelve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_3/make_and_dump_db_classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_4/peopleinteract_query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_5/tkinter_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#149#259#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_5/peoplegui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../software/Python/Python38-32/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50733">
-          <caret line="1882" selection-start-line="1882" selection-end-line="1882" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_5/fungui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_6/webserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_4/peopleinteract_update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin/cgi_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_6/class-shelve.bak" />
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_6/people_cgi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="30" selection-start-line="30" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi-bin/people_cgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/tmp.txt" />
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_01/step_6/cgi_demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/file_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1624838555/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3083">
-          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/subprocess.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../software/Python/Python38-32/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="331" column="4" selection-start-line="331" selection-start-column="4" selection-end-line="331" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/string_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/sys_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/index.html" />
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/subprocess_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/os_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/input.txt" />
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/output.txt" />
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/stream_demo.py" />
-    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="96" column="45" lean-forward="true" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/env_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -720,13 +617,6 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -788,13 +678,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/data.bin" />
-    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_autocrement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="95" selection-start-line="95" selection-end-line="103" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_special.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -802,32 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/inputs/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_json_to_entity/input.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#860#1788#0" />
-            <element signature="e#1814#2580#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/first.py" />
-    <entry file="file://$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/data2.txt" />
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/streams_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -856,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/file_demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="106" selection-start-line="106" selection-end-line="107" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/dir_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -878,13 +726,310 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/dir_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+        <state relative-caret-position="402">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../software/Python/Python38-32/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="545" column="4" selection-start-line="545" selection-start-column="4" selection-end-line="545" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/fork_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#8#2" />
+            <element signature="e#113#166#0" />
+            <element signature="e#238#427#0" />
+            <element signature="e#233#263#1" />
+            <element signature="e#208#374#0" />
+            <element signature="e#851#911#0" />
+            <element signature="e#882#911#0" />
+            <element signature="e#975#1180#0" />
+            <element signature="e#970#1005#1" />
+            <element signature="e#996#1138#0" />
+            <element signature="e#1105#1138#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/file_demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="106" selection-start-line="106" selection-end-line="107" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/_thread_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="124" selection-start-line="124" selection-end-line="126" />
+          <folding>
+            <element signature="e#36#43#0" />
+            <element signature="e#89#199#0" />
+            <element signature="e#119#199#0" />
+            <element signature="e#236#243#0" />
+            <element signature="e#271#350#0" />
+            <element signature="e#298#306#0" />
+            <element signature="e#343#350#0" />
+            <element signature="e#401#554#0" />
+            <element signature="e#591#664#0" />
+            <element signature="e#622#663#0" />
+            <element signature="e#702#801#0" />
+            <element signature="e#890#1021#0" />
+            <element signature="e#921#1021#0" />
+            <element signature="e#1052#1151#0" />
+            <element signature="e#1486#1644#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_oa/input" />
+    <entry file="file://$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/threading_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="125" selection-start-line="125" selection-end-line="126" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#57#288#0" />
+            <element signature="e#105#171#0" />
+            <element signature="e#208#288#0" />
+            <element signature="e#248#288#0" />
+            <element signature="e#342#578#0" />
+            <element signature="e#422#508#0" />
+            <element signature="e#860#1106#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/queue_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="81" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#183#267#0" />
+            <element signature="e#341#548#0" />
+            <element signature="e#610#836#0" />
+            <element signature="e#1017#1404#0" />
+            <element signature="e#1448#1510#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/exit_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2920">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#30#70#0" />
+            <element signature="e#95#194#0" />
+            <element signature="e#241#280#0" />
+            <element signature="e#236#271#1" />
+            <element signature="e#302#312#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/inputs/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="100" column="38" lean-forward="true" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_autocrement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="102" column="58" lean-forward="true" selection-start-line="102" selection-start-column="58" selection-end-line="102" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_json_to_entity/json_to_entity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="107" column="42" lean-forward="true" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_prog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret column="15" selection-start-column="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_description.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_epilog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_parents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_formatter_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="29" selection-start-line="29" selection-start-column="2" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_usage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_prefix_chars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_fromfile_prefix_chars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/args2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_argument_default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_allow_abbrev.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_conflict_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../software/Python/Python38-32/Lib/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41634">
+          <caret line="1547" selection-start-line="1547" selection-end-line="1547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/args.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_json_to_entity/input.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_add_help.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/configs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/disploy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/display_easy.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

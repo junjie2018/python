@@ -4,4 +4,4 @@ with open('input', encoding='utf-8') as file:
         segments = line.split('\t')
         time += float(segments[4][:-1])
 
-    print(time)
+    print('overtime:', time)

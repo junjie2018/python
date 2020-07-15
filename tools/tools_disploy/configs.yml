@@ -1,0 +1,39 @@
+configs:
+  default:
+    machine_user: mmpprd
+    machine_password: i29PmmpImK
+    git_user: wujunjie@pconline.com.cn
+    git_password: wujunjie
+  services:
+    - service_name: online-bb-member
+      default:
+        machine_user: mmpprd
+        machine_password: i29PmmpImK
+        envs:
+          env: prod
+          register_url: www.baidu.com
+          application_name: online-bb-member
+          logging_level: debug
+        params:
+          - -Dspring.profiles.action=prod
+      jar_path: brand-member-api\target
+      git_url: http://120.78.168.136:8001/watsons/mmp-brand-member.git
+      targets:
+        - ip: 10.82.34.134
+          machine_user: mmpprd
+          machine_password: i29PmmpImK
+        - ip: 10.82.34.135
+    - service_name: abc
+      git: www.baidu.com
+      jar_path: www.www.ww
+      target:
+        - ip: 10.82.34.134
+          params:
+            - -Dspring.xxx.xxx
+        - ip: 10.82.34.135
+          params:
+            - -Dspring.xxx.xxx
+          user: xxx
+          password: xxx
+
+
