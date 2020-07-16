@@ -7,8 +7,6 @@ import git
 import subprocess
 import paramiko
 
-
-
 # def send_jar_to_target(service_name, source_root, target_path, target_ip, machine_user, machine_password):
 #     source_path = os.path.join(source_root, service_name)
 #     jar_path = os.path.join(source_path, target_path)
@@ -25,8 +23,9 @@ import paramiko
 
 if __name__ == '__main__':
     service_name = 'online-bb-member'
+    sourct_root = '/home/mmpprd/source'
     service = deploy_config.services[service_name]
 
-    deployments = Deployments(service)
+    deployments = Deployments(sourct_root, service)
     deployments.pull()
     deployments.package()
