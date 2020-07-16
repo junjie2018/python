@@ -47,6 +47,9 @@ class Deployment:
         pass
 
     def send_jar(self):
+        print(self.jar_path)
+        print(self.target_dir)
+
         if not os.path.isfile(self.jar_path):
             raise NoJarException('Jar Not Exist.')
         self.transportUtil.send_file(self.jar_path, self.target_dir)
