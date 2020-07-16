@@ -1,3 +1,4 @@
+import glob
 import os
 import subprocess
 
@@ -12,6 +13,9 @@ class PackageFailedException(Exception): pass
 
 
 class NoJarException(Exception): pass
+
+
+class TooManyJarsException(Exception): pass
 
 
 class SSHUtils:
@@ -36,7 +40,17 @@ class Deployment:
         self.service_name = service.service_name
         self.source_root = source_root
         self.source_path = os.path.join(source_root, service.service_name)
-        self.jar_path = os.path.join(self.source_path, service.git_config.jar_path)
+
+        print(os.path.join(self.source_path, service.git_config.jar_path, '*.jar'))
+
+        jars = glob.glob(os.path.join(self.source_path, service.git_config.jar_path, '*.jar'))
+        if len(jars) == 0:
+            raise NoJarException('jar file missing.')
+        if len(jars) > 1:
+            raise TooManyJarsException('too many jars')
+
+        self.jar_path = jars[0]
+        print(self.jar_path)
 
         # jar 包将会被发送到这个目录下
         self.target_dir = 'deploy/%s_%s' % (self.service_name, target_config.port)
@@ -90,10 +104,6 @@ class Deployments:
             raise PackageFailedException
 
     def pull(self):
-        print(self.source_path)
-        print(self.git_url)
-        print(self.git_branch)
-
         if os.path.isdir(self.source_path):
             # git pull
             repo = git.Repo(self.source_path)
