@@ -80,4 +80,4 @@ if __name__ == '__main__':
                        service.git_config.jar_path,
                        service.targets_config[0].ip,
                        service.targets_config[0].machine_user,
-                       service.targets_config[0].machine_passsword)
+                       service.targets_config[0].machine_password)
