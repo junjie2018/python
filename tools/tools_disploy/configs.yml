@@ -15,11 +15,8 @@ configs:
         git_password: wujunjie
       targets:
         - ip: 10.44.0.177
-          port: 8000
-          deploy_path: //todo 晚点再弄
-          machine_user: mmpprd
-          machine_password: i29PmmpImK
-        - ip: 10.82.34.135
-          port: 9000
+          port: 8080
+        - ip: 10.44.0.178
+          port: 8081
 
 
