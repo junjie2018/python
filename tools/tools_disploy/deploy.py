@@ -7,7 +7,7 @@ import shutil
 
 service_name = 'online-bb-member'
 # source_path = r"C:\Users\Junjie\Desktop\source"
-source_path = "~/source"
+source_path = "/home/mmpprd/source"
 project_source_path = os.path.join(source_path, service_name)
 
 services = deploy_config.services
