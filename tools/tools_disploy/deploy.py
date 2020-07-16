@@ -79,5 +79,5 @@ if __name__ == '__main__':
     send_jar_to_target(service_name, source_root,
                        service.git_config.jar_path,
                        service.targets_config[0].ip,
-                       service.machine_config.machine_user,
-                       service.machine_config.machine_passsword)
+                       service.targets_config[0].machine_user,
+                       service.targets_config[0].machine_passsword)
