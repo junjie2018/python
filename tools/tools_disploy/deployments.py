@@ -20,9 +20,6 @@ class TooManyJarsException(Exception): pass
 
 class SSHUtils:
     def __init__(self, ip, machine_user, machine_password):
-        print(ip)
-        print(machine_user)
-        print(machine_password)
         self.transport = paramiko.Transport(ip)
         self.transport.connect(username=machine_user, password=machine_password)
 
@@ -41,7 +38,13 @@ class Deployment:
         self.source_root = source_root
         self.source_path = os.path.join(source_root, service.service_name)
 
-        print(os.path.join(self.source_path, service.git_config.jar_path, '*.jar'))
+        self.target_port = target_config.port
+
+        self.target_home = os.path.join('/home', target_config.machine_user)
+        self.target_deploy_dir = os.path.join(
+            self.target_home,
+            'deploy',
+            '%s_%s' % (self.service_name, self.target_port))
 
         jars = glob.glob(os.path.join(self.source_path, service.git_config.jar_path, '*.jar'))
         if len(jars) == 0:
@@ -62,11 +65,11 @@ class Deployment:
 
     def send_jar(self):
         print(self.jar_path)
-        print(self.target_dir)
+        print(self.target_deploy_dir)
 
         if not os.path.isfile(self.jar_path):
             raise NoJarException('Jar Not Exist.')
-        self.transportUtil.send_file(self.jar_path, self.target_dir)
+        self.transportUtil.send_file(self.jar_path, self.target_deploy_dir)
         pass
 
     def deploy(self):
