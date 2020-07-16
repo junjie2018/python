@@ -8,8 +8,6 @@ import subprocess
 import paramiko
 
 
-def send_file(ip, machine_user, machine_password, sour_file_path, target_file_dir):
-
 
 # def send_jar_to_target(service_name, source_root, target_path, target_ip, machine_user, machine_password):
 #     source_path = os.path.join(source_root, service_name)
