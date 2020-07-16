@@ -67,8 +67,8 @@ class Deployments:
 
         self.deployments = []
 
-        for target_config in service.targets_config:
-            self.deployments.append(Deployment(source_root, service, target_config))
+        # for target_config in service.targets_config:
+        #     self.deployments.append(Deployment(source_root, service, target_config))
 
     def package(self):
         if not os.path.isdir(self.source_path):
@@ -87,7 +87,7 @@ class Deployments:
         print(self.source_path)
         print(self.git_url)
         print(self.git_branch)
-        
+
         if os.path.isdir(self.source_path):
             # git pull
             repo = git.Repo(self.source_path)

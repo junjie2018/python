@@ -28,4 +28,4 @@ if __name__ == '__main__':
 
     deployments = Deployments(source_root, service)
     deployments.pull()
-    # deployments.package()
+    deployments.package()
