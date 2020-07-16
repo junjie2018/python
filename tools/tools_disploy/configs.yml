@@ -14,7 +14,7 @@ configs:
         git_user: wujunjie@pconline.com.cn
         git_password: wujunjie
       targets:
-        - ip: 10.82.34.134
+        - ip: 10.44.0.177
           port: 8000
           deploy_path: //todo 晚点再弄
           machine_user: mmpprd
