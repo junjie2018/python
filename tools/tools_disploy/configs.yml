@@ -10,7 +10,7 @@ configs:
       git:
         branch: master
         jar_path: www.www.ww
-        git_url: http://120.78.168.136:8001/watsons/mmp-brand-member.git
+        git_url: git@120.78.168.136:watsons/mmp-brand-member.git
         git_user: wujunjie@pconline.com.cn
         git_password: wujunjie
       targets:
