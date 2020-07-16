@@ -63,6 +63,7 @@ def send_jar_to_target(service_name, source_root, target_path, target_ip, machin
         raise NoJarException('no jar in target path.')
 
     jar_file_path = os.path.join(jar_path, jars[0])
+    print(jar_file_path)
     send_file(target_ip, machine_user, machine_password, jar_file_path, "/home/mmpprd/tmp/temp.jar")
 
 
