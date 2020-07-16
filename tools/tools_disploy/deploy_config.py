@@ -12,17 +12,17 @@ def raise_exception(service_name, field_name):
 
 class GitConfig:
     def __init__(self, service_name, git_map):
-        check_fields = ['git_url', 'git_user', 'git_password', 'jar_path', 'branch']
+        check_fields = ['git_url', 'git_user', 'git_password', 'jar_path', 'git_branch']
 
         for field in check_fields:
             if field not in git_map:
                 raise_exception(service_name, field)
 
+        self.jar_path = git_map['jar_path']
         self.git_url = git_map['git_url']
+        self.git_branch = git_map['git_branch']
         self.git_user = git_map['git_user']
         self.git_password = git_map['git_password']
-        self.jar_path = git_map['jar_path']
-        self.jar_path = git_map['branch']
 
 
 class MachineConfig:

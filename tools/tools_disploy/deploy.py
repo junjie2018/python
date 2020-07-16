@@ -3,10 +3,17 @@
 import deploy_config
 import os
 import git
+import subprocess
 import shutil
 
 
-def git_update(service_name, source_root, git_url):
+class NoKeyPathException(Exception): pass
+
+
+class PackageFailedException(Exception): pass
+
+
+def git_update(service_name, source_root, git_url, git_branch):
     source_path = os.path.join(source_root, service_name)
     if os.path.isdir(source_path):
         # git pull
@@ -15,9 +22,19 @@ def git_update(service_name, source_root, git_url):
         pass
     else:
         repo = git.Repo.clone_from(git_url, source_path)
-        repo.git.checkout('develop')
+        repo.git.checkout(git_branch)
         # git clone
         pass
+
+
+def maven_package(service_name, service_root):
+    source_path = os.path.join(source_root, service_name)
+    if os.path.isdir(source_path):
+        raise NoKeyPathException("source_path not exist.")
+    pipe = subprocess.Popen('mvn package -D maven.test.skip=True')
+    pipe.wait()
+    if pipe.returncode != 0:
+        raise PackageFailedException
 
 
 if __name__ == '__main__':
@@ -25,4 +42,7 @@ if __name__ == '__main__':
     source_root = "/home/mmpprd/source"
     service = deploy_config.services[service_name]
 
-    git_update(service_name, source_root, service.git_config.git_url)
+    git_update(service_name, source_root,
+               service.git_config.git_url,
+               service.git_config.git_branch)
+    maven_package(service_name, source_root)
