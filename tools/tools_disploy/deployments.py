@@ -63,7 +63,7 @@ class Deployments:
         self.source_path = os.path.join(source_root, service.service_name)
 
         self.git_url = service.git_config.git_url
-        self.git_branch = service.git_config.git_brnch
+        self.git_branch = service.git_config.git_branch
 
         self.deployments = []
 
