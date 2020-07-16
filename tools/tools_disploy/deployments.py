@@ -84,6 +84,10 @@ class Deployments:
             raise PackageFailedException
 
     def pull(self):
+        print(self.source_path)
+        print(self.git_url)
+        print(self.git_branch)
+        
         if os.path.isdir(self.source_path):
             # git pull
             repo = git.Repo(self.source_path)
