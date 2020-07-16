@@ -23,9 +23,9 @@ import paramiko
 
 if __name__ == '__main__':
     service_name = 'online-bb-member'
-    sourct_root = '/home/mmpprd/source'
+    source_root = '/home/mmpprd/source'
     service = deploy_config.services[service_name]
 
-    deployments = Deployments(sourct_root, service)
+    deployments = Deployments(source_root, service)
     deployments.pull()
-    deployments.package()
+    # deployments.package()
