@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import deploy_config
 import os
 import git
