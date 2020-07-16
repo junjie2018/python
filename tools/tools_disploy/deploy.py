@@ -33,7 +33,10 @@ def maven_package(service_name, source_root):
         raise NoKeyPathException("source_path not exist.")
     os.chdir(source_path)
     pipe = subprocess.Popen('mvn package -D maven.test.skip=True', shell=True, stdout=subprocess.PIPE)
-    print(pipe.stdout.read())
+
+    for line in pipe.stdout.readlines():
+        print(line)
+
     pipe.wait()
     if pipe.returncode != 0:
         raise PackageFailedException
