@@ -16,6 +16,9 @@ class NoJarException(Exception): pass
 
 class SSHUtils:
     def __init__(self, ip, machine_user, machine_password):
+        print(ip)
+        print(machine_user)
+        print(machine_password)
         self.transport = paramiko.Transport(ip)
         self.transport.connect(username=machine_user, password=machine_password)
 
