@@ -29,7 +29,7 @@ def git_update(service_name, source_root, git_url, git_branch):
 
 def maven_package(service_name, service_root):
     source_path = os.path.join(source_root, service_name)
-    if os.path.isdir(source_path):
+    if not os.path.isdir(source_path):
         raise NoKeyPathException("source_path not exist.")
     pipe = subprocess.Popen('mvn package -D maven.test.skip=True')
     pipe.wait()
