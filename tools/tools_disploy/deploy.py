@@ -50,6 +50,8 @@ def send_file(ip, machine_user, machine_password, sour_file_path, target_file_di
     transport = paramiko.Transport(ip)
     transport.connect(username=machine_user, password=machine_password)
     sftp = paramiko.SFTPClient.from_transport(transport)
+    print(sour_file_path)
+    print(target_file_dir)
     sftp.put(sour_file_path, target_file_dir)
 
 
