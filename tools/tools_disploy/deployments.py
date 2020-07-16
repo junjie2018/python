@@ -70,8 +70,8 @@ class Deployments:
 
         self.deployments = []
 
-        # for target_config in service.targets_config:
-        #     self.deployments.append(Deployment(source_root, service, target_config))
+        for target_config in service.targets_config:
+            self.deployments.append(Deployment(source_root, service, target_config))
 
     def package(self):
         if not os.path.isdir(self.source_path):
