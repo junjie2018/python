@@ -5,20 +5,24 @@ import os
 import git
 import shutil
 
-service_name = 'online-bb-member'
-# source_path = r"C:\Users\Junjie\Desktop\source"
-source_path = "/home/mmpprd/source"
-project_source_path = os.path.join(source_path, service_name)
 
-services = deploy_config.services
-service = services[service_name]
-# os.removedirs(project_source_path)
-shutil.rmtree(project_source_path, ignore_errors=True)
-repo = git.Repo.clone_from(service.git_config.git_url, project_source_path)
-repo.git.checkout('develop')
-# print(repo.git.branch('-r'))
+def git_update(service_name, source_root, git_url):
+    source_path = os.path.join(source_root, service_name)
+    if os.path.isdir(source_path):
+        # git pull
+        repo = git.Repo(source_path)
+        repo.remote().pull()
+        pass
+    else:
+        repo = git.Repo.clone_from(git_url, source_path)
+        repo.git.checkout('develop')
+        # git clone
+        pass
 
-# service = services['online-bb-member']
 
-#
-# print("")
+if __name__ == '__main__':
+    service_name = 'online-bb-member'
+    source_root = "/home/mmpprd/source"
+    service = deploy_config.services[service_name]
+
+    git_update(service_name, source_root, service.git_config.git_url)
