@@ -8,7 +8,7 @@ configs:
         params:
           - -Dspring.profiles.action=prod
       git:
-        jar_path: www.www.ww
+        jar_path: brand-member-api\target
         git_url: git@120.78.168.136:watsons/mmp-brand-member.git
         git_branch: develop
         git_user: wujunjie@pconline.com.cn
