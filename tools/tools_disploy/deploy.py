@@ -1,16 +1,20 @@
 #!/usr/bin/python3
+import glob
 
 import deploy_config
 import os
 import git
 import subprocess
-import shutil
+import paramiko
 
 
 class NoKeyPathException(Exception): pass
 
 
 class PackageFailedException(Exception): pass
+
+
+class NoJarException(Exception): pass
 
 
 def git_update(service_name, source_root, git_url, git_branch):
@@ -42,6 +46,26 @@ def maven_package(service_name, source_root):
         raise PackageFailedException
 
 
+def send_file(ip, machine_user, machine_password, sour_file_path, target_file_dir):
+    transport = paramiko.Transport(ip)
+    transport.connect(username=machine_user, password=machine_password)
+    sftp = paramiko.SFTPClient.from_transport(transport)
+    sftp.put(sour_file_path, target_file_dir)
+
+
+def send_jar_to_target(service_name, source_root, target_path, target_ip, machine_user, machine_password):
+    source_path = os.path.join(source_root, service_name)
+    jar_path = os.path.join(source_path, target_path)
+
+    os.chdir(jar_path)
+    jars = glob.glob('*.jar')
+    if len(jars) == 0:
+        raise NoJarException('no jar in target path.')
+
+    jar_file_path = jars[0]
+    send_file(target_ip, machine_user, machine_password, jar_file_path, "/home/mmpprd/tmp/temp.jar")
+
+
 if __name__ == '__main__':
     service_name = 'online-bb-member'
     source_root = "/home/mmpprd/source"
@@ -51,3 +75,9 @@ if __name__ == '__main__':
                service.git_config.git_url,
                service.git_config.git_branch)
     maven_package(service_name, source_root)
+
+    send_jar_to_target(service_name, source_root,
+                       service.git_config.jar_path,
+                       service.targets_config[0].ip,
+                       service.machine_config.machine_user,
+                       service.machine_config.machine_passsword)
