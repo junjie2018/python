@@ -47,16 +47,12 @@ class TargetConfig:
 
         self.machine_user = target_map.get('machine_user', machine_config.machine_user)
         self.machine_password = target_map.get('machine_password', machine_config.machine_password)
-        self.deploy_path = target_map.get('deploy_path', machine_config.deploy_path)
 
         if self.machine_user is None:
             raise_exception(service_name, 'machine_user')
 
         if self.machine_password is None:
             raise_exception(service_name, 'machine_password')
-
-        if self.deploy_path is None:
-            raise_exception(service_name, 'deploy_path')
 
 
 class ServiceConfig:

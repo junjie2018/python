@@ -1,11 +1,17 @@
-表名	卡动态码记录表	表编码:	mmp_card_dynamic_log	约束说明：						end
+表名	会员卡segment表	表编码:	mmp_member_segment	约束说明：						end
 序号	列名称	列编码	类型	长度	键	必填	约束/默认值	备注	修改类型	end
-1	主键Id	card_dynamic_log_id	bigint	20	PK	是	primary key	主键Id	自增	end
-	会员Id	member_id	bigint	20		是				end
-	会员卡Id	card_id	bigint	20		是				end
-2	会员卡号	card_no	bigint	20		是				end
-3	动态码	dynamic_code	bigint	20		是				end
-4	状态	status	int	4		是				end
-5	动态码前缀	dynamic_prefix	varchar	100		是				end
-6	卡号前缀	card_prefix	int	4		是				end
-7	生成时间	create_time	datetime	4		是				end
+1	主键Id	member_segment_id	bigint	20	PK	是	primary key	主键Id	自增	end
+2	会员Id	member_id	bigint	20		是	idx_member_id	索引		end
+	会员卡id	card_id	bigint	20		否				end
+	卡号	card_no	varchar	100		是				end
+	segment值	segment_no	bigint	20		是				end
+4	segment名称	segment_name	varchar	30		是				end
+6	segment状态	status	tinyint	2		是	default 1			end
+	segment有效开始时间	segment_start_date	datetime			否				end
+	segment有效结束时间	segment_end_date	datetime			否				end
+	segment业务类型名称	segment_type	varchar	100		否				end
+	备注	remark	varchar	255		否				end
+7	创建时间	create_at	datetime			是	CURRENT_TIMESTAMP			end
+8	创建人	create_by	bigint	20		否				end
+9	 修改时间	update_at	datetime			否				end
+10	修改人	update_by	bigint	20		否				end

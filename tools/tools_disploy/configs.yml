@@ -2,7 +2,6 @@ configs:
   services:
     - service_name: online-bb-member
       machine:
-        deploy_path: //todo 晚点再弄
         machine_user: mmpprd
         machine_password: i29PmmpImK
         params:

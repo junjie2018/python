@@ -23,8 +23,20 @@ class SSHUtils:
         self.transport = paramiko.Transport(ip)
         self.transport.connect(username=machine_user, password=machine_password)
 
-    def send_file(self, source_file, target_file):
+    def mkdir_p(self, relative_path):
         sftp = paramiko.SFTPClient.from_transport(self.transport)
+        if relative_path == '/':
+            sftp.chdir('.')
+        if relative_path == '':
+            return
+        try:
+            sftp.chdir(relative_path)
+        except IOError:
+            dirname, basename = os.path.split(relative_path.rstrip('/'))
+            mkdir_p(sftp)
+
+    def send_file(self, source_file, target_file):
+        sftp.mkdir()
         print(source_file)
         print(target_file)
         sftp.put(source_file, target_file)
@@ -36,17 +48,26 @@ class Deployment:
     def __init__(self, source_root, service, target_config):
         self.service_name = service.service_name
         self.source_root = source_root
-        self.source_path = os.path.join(source_root, service.service_name)
+        self.source_dir = os.path.join(source_root, service.service_name)
 
-        self.target_port = target_config.port
+        # jar包放在该目录下
+        self.jar_path = os.path.join(self.source_dir, target_config.jar_path)
 
-        self.target_home = os.path.join('/home', target_config.machine_user)
+        self.target_port = target_config.port  # 8000
+        self.target_home = os.path.join('/home', target_config.machine_user)  # /home/mmpprd
+        self.deploy_dir = os.path.join(self.target_home, 'deploy')  # /home/deploy
+        self.target_dir_name = '%s_%s' % (self.service_name, self.target_port)  # online-bb-member_8000
+        self.target_dir = os.path.join(self.deploy_dir, self.target_dir_name)  # /home/deploy/online-bb-member_8000
+
+
+        self.target_deploy_path = os.path.join(self.target_home, 'deploy')  # /home/mmpprd/deploy
+        self.target_deploy_path = os.path.join(self.target_home, 'deploy')  # /home/mmpprd/deploy
         self.target_deploy_dir = os.path.join(
             self.target_home,
             'deploy',
             '%s_%s' % (self.service_name, self.target_port))
 
-        jars = glob.glob(os.path.join(self.source_path, service.git_config.jar_path, '*.jar'))
+        jars = glob.glob(os.path.join(self.source_dir, service.git_config.jar_path, '*.jar'))
         if len(jars) == 0:
             raise NoJarException('jar file missing.')
         if len(jars) > 1:
@@ -83,7 +104,7 @@ class Deployments:
     def __init__(self, source_root, service):
         self.service_name = service.service_name
         self.source_root = source_root
-        self.source_path = os.path.join(source_root, service.service_name)
+        self.source_dir = os.path.join(source_root, service.service_name)
 
         self.git_url = service.git_config.git_url
         self.git_branch = service.git_config.git_branch
@@ -94,9 +115,9 @@ class Deployments:
             self.deployments.append(Deployment(source_root, service, target_config))
 
     def package(self):
-        if not os.path.isdir(self.source_path):
-            raise NoKeyPathException("source_path not exist.")
-        os.chdir(self.source_path)
+        if not os.path.isdir(self.source_dir):
+            raise NoKeyPathException("source_dir not exist.")
+        os.chdir(self.source_dir)
         pipe = subprocess.Popen('mvn package -D maven.test.skip=True', shell=True, stdout=subprocess.PIPE)
 
         for line in pipe.stdout.readlines():
@@ -107,13 +128,13 @@ class Deployments:
             raise PackageFailedException
 
     def pull(self):
-        if os.path.isdir(self.source_path):
+        if os.path.isdir(self.source_dir):
             # git pull
-            repo = git.Repo(self.source_path)
+            repo = git.Repo(self.source_dir)
             repo.remote().pull()
             pass
         else:
-            repo = git.Repo.clone_from(self.git_url, self.source_path)
+            repo = git.Repo.clone_from(self.git_url, self.source_dir)
             repo.git.checkout(self.git_branch)
             # git clone
             pass

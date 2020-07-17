@@ -1,4 +1,4 @@
-with open('input', encoding='utf-8') as file:
+with open('input.txt', encoding='utf-8') as file:
     time = 0.0
     for line in file.readlines():
         segments = line.split('\t')

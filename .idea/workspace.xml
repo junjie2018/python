@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff42e92-3881-4345-83be-c520769818a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tools/tools_disploy/deploy_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/python_programming/chap_05/communication.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools_develop/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools_develop/sets_and_gets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tools_oa/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/tools_disploy/configs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_disploy/configs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/tools_disploy/display_easy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_disploy/display_easy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/tools_disploy/disploy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_disploy/deploy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools_disploy/deploy_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_disploy/deploy_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools_disploy/deployments.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_disploy/deployments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/tools_power_design/inputs/input" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools_power_design/inputs/input" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,108 +21,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/tools_power_design/inputs/input">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="54" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tools/tools_disploy/deploy.py">
+        <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/communication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/tools_develop/sets_and_gets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/tools_develop/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/shutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="450" column="4" selection-start-line="450" selection-start-column="4" selection-end-line="450" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/git/repo/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="995" lean-forward="true" selection-start-line="995" selection-end-line="995" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1263">
-              <caret line="1751" selection-start-line="1751" selection-end-line="1751" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/tools_disploy/deploy_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding>
-                <element signature="e#62#66#0" />
-                <element signature="e#120#195#0" />
-                <element signature="e#385#462#0" />
-                <element signature="e#673#977#0" />
-                <element signature="e#728#977#0" />
-                <element signature="e#1004#1929#0" />
-                <element signature="e#1074#1929#0" />
-                <element signature="e#1152#1232#0" />
-                <element signature="e#1957#2594#0" />
-                <element signature="e#2012#2594#0" />
-                <element signature="e#2672#3231#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/tools_disploy/display_easy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/tools_disploy/configs.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../software/Python/Python38-32/Lib/argparse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41634">
-              <caret line="1547" selection-start-line="1547" selection-end-line="1547" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/argument_parser/args.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -148,10 +95,17 @@
       <find>...</find>
       <find>&gt;&gt;&gt;</find>
       <find>default=</find>
+      <find>subprocess</find>
+      <find>subprocess.Popen</find>
+      <find>subprocess.Popen(</find>
+      <find>default_config</find>
+      <find>git_brnch</find>
+      <find>source_path</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>machine_config</replace>
+      <replace>source_dir</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -160,12 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/books/python_programming/chap_02/os_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_03/testargv.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_03/env_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_03/input.txt" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_03/stream_demo.py" />
-        <option value="$PROJECT_DIR$/books/python_programming/chap_03/test_streams.py" />
         <option value="$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_autocrement.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_03/streams_demo.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_03/streams_demo2.py" />
@@ -182,11 +130,9 @@
         <option value="$PROJECT_DIR$/books/python_programming/chap_05/fork_demo.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_05/thread_demo.py" />
         <option value="$PROJECT_DIR$/tools/tools_oa/input" />
-        <option value="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_05/threading_demo.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_05/queue_demo.py" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_05/exit_demo.py" />
-        <option value="$PROJECT_DIR$/tools/tools_power_design/inputs/input" />
         <option value="$PROJECT_DIR$/tools/tools_json_to_entity/input.json" />
         <option value="$PROJECT_DIR$/books/python_programming/chap_03/argv_demo.py" />
         <option value="$PROJECT_DIR$/modules/argparse_01.py" />
@@ -205,18 +151,26 @@
         <option value="$PROJECT_DIR$/modules/argument_parser_add_help.py" />
         <option value="$PROJECT_DIR$/tools/tools_disploy/config.yml" />
         <option value="$PROJECT_DIR$/tools/tools_disploy/disploy.sh.py" />
-        <option value="$PROJECT_DIR$/tools/tools_disploy/display_easy.py" />
         <option value="$PROJECT_DIR$/tools/tools_disploy/disploy.py" />
         <option value="$PROJECT_DIR$/tools/tools_disploy/parser_config.py" />
-        <option value="$PROJECT_DIR$/tools/tools_disploy/configs.yml" />
-        <option value="$PROJECT_DIR$/tools/tools_disploy/deploy_config.py" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/display_easy.py" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/deployment.py" />
         <option value="$PROJECT_DIR$/tools/tools_disploy/deploy.py" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/deploy_config.py" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/configs.yml" />
+        <option value="$PROJECT_DIR$/tools/tools_disploy/deployments.py" />
+        <option value="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" />
+        <option value="$PROJECT_DIR$/tools/tools_oa/input.txt" />
+        <option value="$PROJECT_DIR$/tools/tools_develop/input.txt" />
+        <option value="$PROJECT_DIR$/tools/tools_develop/sets_and_gets.py" />
+        <option value="$PROJECT_DIR$/tools/tools_power_design/inputs/input" />
+        <option value="$PROJECT_DIR$/books/python_programming/chap_05/communication.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="-25" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -243,13 +197,15 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="python_programming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
-              <item name="tools_disploy" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="python_programming" type="462c0819:PsiDirectoryNode" />
+              <item name="chap_05" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,19 +225,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python\modules\argument_parser" />
-      <recent name="D:\python\tools\tools_update_kubernetes_resources" />
-      <recent name="D:\python\books\python_programming\chap_01\step_6" />
-      <recent name="D:\python\books\python_programming\chap_01\step_6\cgi-bin" />
-      <recent name="D:\python\books\python_programming\chap_01\step_4" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python\modules" />
       <recent name="D:\python\books\python_programming\chap_04" />
       <recent name="D:\python\tools\tools_power_design" />
       <recent name="D:\python\books\python_programming\chap_02" />
       <recent name="D:\python\books\python_programming\chap_01\step_6" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\tools\tools_develop" />
+      <recent name="D:\python\modules\argument_parser" />
+      <recent name="D:\python\tools\tools_update_kubernetes_resources" />
+      <recent name="D:\python\books\python_programming\chap_01\step_6" />
+      <recent name="D:\python\books\python_programming\chap_01\step_6\cgi-bin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,73 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.deploy">
-    <configuration name="argument_parser_add_help" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\modules\argument_parser\argument_parser_add_help.py" />
-      <option name="PARAMETERS" value="-h" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="argument_parser_allow_abbrev" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\modules\argument_parser\argument_parser_allow_abbrev.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="argument_parser_conflict_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\python\modules\argument_parser\argument_parser_conflict_handler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.excel_to_sql">
     <configuration name="deploy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -407,20 +297,86 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="excel_to_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools/tools_power_design" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/tools_power_design/excel_to_sql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sets_and_gets" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools/tools_develop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/tools_develop/sets_and_gets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="statistics_work_time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools/tools_oa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.argument_parser_allow_abbrev" />
-      <item itemvalue="Python.argument_parser_conflict_handler" />
-      <item itemvalue="Python.argument_parser_add_help" />
       <item itemvalue="Python.disploy.sh" />
       <item itemvalue="Python.deploy" />
+      <item itemvalue="Python.statistics_work_time" />
+      <item itemvalue="Python.excel_to_sql" />
+      <item itemvalue="Python.sets_and_gets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.excel_to_sql" />
+        <item itemvalue="Python.sets_and_gets" />
+        <item itemvalue="Python.statistics_work_time" />
         <item itemvalue="Python.deploy" />
         <item itemvalue="Python.disploy.sh" />
-        <item itemvalue="Python.argument_parser_add_help" />
-        <item itemvalue="Python.argument_parser_conflict_handler" />
-        <item itemvalue="Python.argument_parser_allow_abbrev" />
       </list>
     </recent_temporary>
   </component>
@@ -445,24 +401,27 @@
       <workItem from="1594689378592" duration="32014000" />
       <workItem from="1594792689895" duration="1976000" />
       <workItem from="1594799122927" duration="12076000" />
-      <workItem from="1594862778499" duration="5415000" />
+      <workItem from="1594862778499" duration="18966000" />
+      <workItem from="1594894098381" duration="560000" />
+      <workItem from="1594949582246" duration="1783000" />
+      <workItem from="1594954218282" duration="6984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130854000" />
+    <option name="totallyTimeSpent" value="153732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24396783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15013404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19263457" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6246459" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.68404907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6242331" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -531,9 +490,9 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tools/tools_disploy/deploy.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/tools/tools_develop/sets_and_gets.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -551,7 +510,7 @@
     <SUITE FILE_PATH="coverage/python$fungui.coverage" NAME="fungui Coverage Results" MODIFIED="1594212616637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_5" />
     <SUITE FILE_PATH="coverage/python$more.coverage" NAME="more Coverage Results" MODIFIED="1594297580651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
     <SUITE FILE_PATH="coverage/python$os_demo.coverage" NAME="os_demo Coverage Results" MODIFIED="1594371930454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
-    <SUITE FILE_PATH="coverage/python$statistics_work_time.coverage" NAME="statistics_work_time Coverage Results" MODIFIED="1594717159776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_oa" />
+    <SUITE FILE_PATH="coverage/python$statistics_work_time.coverage" NAME="statistics_work_time Coverage Results" MODIFIED="1594954276073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_oa" />
     <SUITE FILE_PATH="coverage/python$person_alternative.coverage" NAME="person_alternative Coverage Results" MODIFIED="1594125170888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_3" />
     <SUITE FILE_PATH="coverage/python$argument_parser_formatter_class.coverage" NAME="argument_parser_formatter_class Coverage Results" MODIFIED="1594735509181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$webserver__1_.coverage" NAME="webserver (1) Coverage Results" MODIFIED="1594288967196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01/step_6" />
@@ -560,7 +519,7 @@
     <SUITE FILE_PATH="coverage/python$excel_to_sql_autocrement.coverage" NAME="excel_to_sql_autocrement Coverage Results" MODIFIED="1594730831237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_power_design" />
     <SUITE FILE_PATH="coverage/python$subprocess_demo.coverage" NAME="subprocess_demo Coverage Results" MODIFIED="1594373972643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_02" />
     <SUITE FILE_PATH="coverage/python$make_and_dump_db_pickle2.coverage" NAME="make_and_dump_db_pickle2 Coverage Results" MODIFIED="1594108602387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
-    <SUITE FILE_PATH="coverage/python$excel_to_sql.coverage" NAME="excel_to_sql Coverage Results" MODIFIED="1594541156183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_power_design" />
+    <SUITE FILE_PATH="coverage/python$excel_to_sql.coverage" NAME="excel_to_sql Coverage Results" MODIFIED="1594991199958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_power_design" />
     <SUITE FILE_PATH="coverage/python$argument_parser_description.coverage" NAME="argument_parser_description Coverage Results" MODIFIED="1594734601180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$json_to_entity.coverage" NAME="json_to_entity Coverage Results" MODIFIED="1594727881450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_json_to_entity" />
     <SUITE FILE_PATH="coverage/python$streams_demo.coverage" NAME="streams_demo Coverage Results" MODIFIED="1594548766210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
@@ -602,46 +561,10 @@
     <SUITE FILE_PATH="coverage/python$argument_parser_epilog.coverage" NAME="argument_parser_epilog Coverage Results" MODIFIED="1594734832154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/python$initdata.coverage" NAME="initdata Coverage Results" MODIFIED="1594104638076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_01" />
     <SUITE FILE_PATH="coverage/python$env_demo.coverage" NAME="env_demo Coverage Results" MODIFIED="1594386655073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/books/python_programming/chap_03" />
+    <SUITE FILE_PATH="coverage/python$sets_and_gets.coverage" NAME="sets_and_gets Coverage Results" MODIFIED="1594974311049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/tools_develop" />
     <SUITE FILE_PATH="coverage/python$argument_parser_parents.coverage" NAME="argument_parser_parents Coverage Results" MODIFIED="1594735005073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/data.bin" />
-    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_special.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="78" column="41" lean-forward="true" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/first.py" />
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/data2.txt" />
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/streams_demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="79" column="18" lean-forward="true" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/file_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-          <folding>
-            <element signature="e#255#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_03/data.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_04/dir_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -731,13 +654,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/tools_oa/input" />
-    <entry file="file://$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/threading_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -782,20 +698,6 @@
             <element signature="e#236#271#1" />
             <element signature="e#302#312#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/inputs/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="100" column="38" lean-forward="true" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -914,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_json_to_entity/input.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/argument_parser/argument_parser_conflict_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -956,44 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/display_easy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/configs.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/git/repo/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="995" lean-forward="true" selection-start-line="995" selection-end-line="995" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/deploy_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="e#62#66#0" />
-            <element signature="e#120#195#0" />
-            <element signature="e#385#462#0" />
-            <element signature="e#673#977#0" />
-            <element signature="e#728#977#0" />
-            <element signature="e#1004#1929#0" />
-            <element signature="e#1074#1929#0" />
-            <element signature="e#1152#1232#0" />
-            <element signature="e#1957#2594#0" />
-            <element signature="e#2012#2594#0" />
-            <element signature="e#2672#3231#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,10 +874,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/tools_disploy/deploy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="486">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#19#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/deployments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/paramiko/sftp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10179">
+          <caret line="426" column="70" selection-start-line="426" selection-start-column="70" selection-end-line="426" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_02/subprocess_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/deploy_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/configs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_disploy/display_easy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_json_to_entity/input.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql_special.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_oa/statistics_work_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_oa/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_develop/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/excel_to_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_develop/sets_and_gets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/tools_power_design/inputs/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="54" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books/python_programming/chap_05/communication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
