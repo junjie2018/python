@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 
 
@@ -18,3 +19,8 @@ def parent():
     else:
         while True:
             line = os.read(pipein, 32)
+            print('Parent %d got [%s] at %s' % (os.getpid(), line, time.time()))
+
+
+if __name__ == '__main__':
+    eval(sys.argv[1])()

@@ -10,4 +10,5 @@ if repo.is_dirty():
     remote.push()
 else:
     print('noting to commit.')
+
 input()

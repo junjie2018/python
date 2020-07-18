@@ -1,17 +1,64 @@
-表名	会员卡segment表	表编码:	mmp_member_segment	约束说明：						end
+表名	泛（卡）会员信息表	表编码:	mmp_member_info	约束说明：						end
 序号	列名称	列编码	类型	长度	键	必填	约束/默认值	备注	修改类型	end
-1	主键Id	member_segment_id	bigint	20	PK	是	primary key	主键Id	自增	end
-2	会员Id	member_id	bigint	20		是	idx_member_id	索引		end
-	会员卡id	card_id	bigint	20		否				end
-	卡号	card_no	varchar	100		是				end
-	segment值	segment_no	bigint	20		是				end
-4	segment名称	segment_name	varchar	30		是				end
-6	segment状态	status	tinyint	2		是	default 1			end
-	segment有效开始时间	segment_start_date	datetime			否				end
-	segment有效结束时间	segment_end_date	datetime			否				end
-	segment业务类型名称	segment_type	varchar	100		否				end
-	备注	remark	varchar	255		否				end
-7	创建时间	create_at	datetime			是	CURRENT_TIMESTAMP			end
-8	创建人	create_by	bigint	20		否				end
-9	 修改时间	update_at	datetime			否				end
-10	修改人	update_by	bigint	20		否				end
+1	会员Id	member_id	bigint	20	PK	是	primary key	主键Id	自增	end
+2	全局身份标识	wuid	bigint	20		否				end
+	品牌id	brand_id	bigint	20		否				end
+3	品牌code	brand_code	varchar	100		是				end
+4	渠道ID	channel_id	int	11		是				end
+5	渠道应用ID	channel_app_id	int	11		是				end
+6	会员用户名	member_name	varchar	100		否				end
+7	会员密码	member_password	varchar	100		否				end
+8	邮箱	email	varchar	100		否				end
+9	教育程度	education	varchar	100		否				end
+10	职业	profession	varchar	100		否				end
+11	收入	income	varchar	100		否				end
+12	QQ	oicq	varchar	50		否				end
+13	微信	wechat	varchar	50		否				end
+14	是否马甲会员	is_vest	int	2		是		默认0非马甲，1是马甲		end
+15	头像	avatar	varchar	255		否				end
+16	手机号	mobile_no	varchar	100		否				end
+17	名	first_name	varchar	100		否				end
+18	姓	last_name	varchar	100		否				end
+19	英文名	english_name	varchar	100		否				end
+20	昵称	nickname	varchar	100		否				end
+21	生日	birthday	datetime			否				end
+22	性别	gender	int	4		否				end
+23	联系地址	address	varchar	100		否				end
+24	称谓	personal_title	varchar	10		否		Miss/Mrs/Mr		end
+25	会员类型	is_card_user	tinyint	2		否		1.卡会员、2.泛会员		end
+26	是否雇员标识	employee_flag	tinyint	1		否		Y/N		end
+27	员工号	employee_no	varchar	100		否				end
+28	加入日期	join_date	varchar	20		否				end
+29	Zip code	zip_code	varchar	100		否				end
+30	Country	country	varchar	100		否				end
+31	Province	province	varchar	100		否				end
+32	City	city	varchar	100		否				end
+33	District区	address_line	varchar	100		否				end
+34	Street/road街道/路	address_line2	varchar	100		否				end
+35	Detail address 详细地址	address_line3	varchar	100		否				end
+36	家庭月收入	household_income	varchar	100		否				end
+37	行业类别	job_types	varchar	100		否				end
+38	Job type status	job_status	varchar	100		否				end
+39	Job type value	job_value	varchar	100		否				end
+40	婚姻状况	marital_status	varchar	100		否				end
+41	子女数目	child_num	varchar	100		否				end
+42	Receive promotion flag	receive_promotion_flag	varchar	100		否				end
+43	InternMailFlag	intern_mail_flag	varchar	100		否				end
+44	InternEmailFlag	intern_email_flag	varchar	100		否				end
+45	InternSmsFlag	intern_sms_flag	varchar	100		否				end
+46	Agree with the privacy policy	privacy_agree_flag	varchar	100		否				end
+47	Promotion level	agree	varchar	100		否				end
+48	Skin type	skin_type	varchar	100		否				end
+49	Sub-club	sub_club	varchar	100		否				end
+50	Weibo account	weibo_name	varchar	100		否				end
+51	RenRen account	renren_name	varchar	100		否				end
+52	Tmall account	tmall_name	varchar	100		否				end
+53	Alipay account	alipay_name	varchar	100		否				end
+54	备注	remark	varchar	255		否				end
+55	会员类型	member_type	tinyint	2		是		1.泛会员2.卡会员		end
+56	会员状态	member_status	tinyint	4		是		1正常、2禁用、3已锁、4过期		end
+57	主会员状态	major_member_status	tinyint	4		是		0.非主会员1.主会员默认0		end
+58	创建时间	create_at	datetime			否				end
+59	创建人	create_by	varchar	100		否				end
+60	 修改时间	update_at	datetime			否				end
+61	修改人	update_by	varchar	100		否				end

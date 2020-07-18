@@ -11,7 +11,7 @@ def get_field_type(field):
     elif field['type'] == 'int':
         # 判断常数
         if int(field['length']) > 4:
-            return 'bigint({}) unsigned'.format(field['length'])
+            return 'int({}) unsigned'.format(field['length'])
         else:
             return 'tinyint({}) unsigned'.format(field['length'])
     elif field['type'] == 'datetime':
