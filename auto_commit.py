@@ -8,7 +8,6 @@ if repo.is_dirty():
 
     remote = repo.remote()
     remote.push()
+    print('commit finished.')
 else:
     print('noting to commit.')
-
-input()
