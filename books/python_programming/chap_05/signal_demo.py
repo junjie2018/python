@@ -29,7 +29,7 @@ def on_signal_main():
 
 def on_signal_main2():
     print('Setting at', now())
-    signal.signal(signal.SIGALRM, on_signal())
+    signal.signal(signal.SIGALRM, on_signal)
     signal.alarm(5)
     signal.pause()
 
