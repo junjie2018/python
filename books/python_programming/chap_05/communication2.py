@@ -27,3 +27,7 @@ def parent_main():
         parent()
     else:
         child()
+
+
+if __name__ == '__main__':
+    eval(sys.argv[1])()
