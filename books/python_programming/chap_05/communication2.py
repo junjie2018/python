@@ -23,10 +23,8 @@ def parent():
 def parent_main():
     if not os.path.exists(fifoname):
         os.mkfifo(fifoname)
-    if len(sys.argv) == 1:
-        parent()
-    else:
-        child()
+
+    eval(sys.argv[2])()
 
 
 if __name__ == '__main__':
