@@ -21,6 +21,9 @@ def parent():
 
 
 def parent_main():
+    """
+        书中编码有误，实验无法完成
+    """
     if not os.path.exists(fifoname):
         os.mkfifo(fifoname)
 
