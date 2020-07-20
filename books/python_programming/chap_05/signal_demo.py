@@ -27,5 +27,12 @@ def on_signal_main():
         signal.pause()
 
 
+def on_signal_main2():
+    print('Setting at', now())
+    signal.signal(signal.SIGALRM, on_signal())
+    signal.alarm(5)
+    signal.pause()
+
+
 if __name__ == '__main__':
     eval(sys.argv[1])()
